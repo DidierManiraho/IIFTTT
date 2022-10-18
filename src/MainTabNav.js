@@ -3,6 +3,7 @@ import AllCard from "./AllCard";
 import AppletsCard from "./AppletsCard";
 import ServiceCard from "./ServiceCard";
 import StoryList from "./components/stories/StoryList";
+import LoginPage from "./pages/LoginPage";
 
 const MainTabNav = () => {
     const [showAllCard, setShowAllCard] = useState(false);
@@ -94,6 +95,7 @@ const MainTabNav = () => {
             }
 
             {/*    END: Content Card*/}
+            <LoginPage/>
 
         </div>
     );
